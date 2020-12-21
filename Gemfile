@@ -52,7 +52,7 @@ group :development, :test, :docker do
   gem 'simplecov', require: false
   gem 'timecop'
   gem 'vcr', '~> 6.0'
-  gem 'webmock', '~> 3.9'
+  gem 'webmock', '~> 3.11'
 end
 
 group :development, :docker do
